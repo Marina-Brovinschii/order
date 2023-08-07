@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food order confirmation | Forms</title>
+    <link rel="icon" href="https://www.iconarchive.com/download/i136250/microsoft/fluentui-emoji-3d/Delivery-Truck-3d.512.png">
+    <style>
+        fieldset {background-color: rgb(220, 205, 73);}
+        legend {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;}
+    </style>
+</head>
+<body bgcolor="#9ACD32">
+    <i><h1>ORDER CONFIRMATION</h1></i>
+    <hr>
+    <strong>
+        <a href="">① Choose Food</a> ⮞ ② Confirm Order ⮞<a href=""> ③ Pay </a>⮞<a href=""> ④ Wait</a>
+    </strong>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Order Details</legend>
+            <table cellpadding="5" align="center">
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReu0cMmRHfQvdZt_hUmuHiAxeq8kVi7SNMhCIiBYt_zRlL623csKKp&usqp=CAE&s" alt=""></td>
+                    <td>Pizza Rustica</td>
+                    <td>110 lei</td>
+                    <td>1 buc</td>
+                    <td>110 lei</td>
+                    <td></td>
+                    <td><img width="110" height="110" src="https://www.pizzeriatoskana.ro/wp-content/uploads/2014/10/salata-greceasca-40-1.jpeg" alt=""></td>
+                    <td>Salata Greceasca</td>
+                    <td>75 lei</td>
+                    <td>1 buc</td>
+                    <td>75 lei</td>
+                </tr>
+                <tr>
+                    <td><img width="100" height="100" src="https://retete.unica.ro/wp-content/uploads/2014/03/supa-de-pui.jpg" alt=""></td>
+                    <td>Supa de pui</td>
+                    <td>55 lei</td>
+                    <td>1 buc</td>
+                    <td>55 lei</td>
+                    <td></td>
+                    <td align="center"><img width="40" height="130" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Fanta_1500ml.jpg/220px-Fanta_1500ml.jpg" alt=""></td>
+                    <td>Fanta</td>
+                    <td>25 lei</td>
+                    <td>2 buc</td>
+                    <td>50 lei</td>
+                </tr>
+                <tr>
+                    <td align="right" colspan="5">Total</td>
+                    <td></td>
+                    <td colspan="5">290 lei</td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Data</legend>
+            <table cellpadding="5" align="center">
+                <tr>
+                    <td>
+                        <label for="">
+                            Full Name <br>
+                            <input required type="text" name="Full_name" placeholder="John Douglas" pattern="[A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+">
+                        </label>
+                    </td>
+                    <td><img src="https://icons.iconarchive.com/icons/iconsmind/outline/48/User-icon.png" alt=""></td>
+                    <td>
+                        <label for="">
+                            Phone number <br>
+                            <input name="Numar de telefon" required type="tel" placeholder="+373(69)663980" pattern="[0-9+()]{11,}">
+                        </label>
+                    </td>
+                    <td><img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/48/phone-icon.png" alt=""></td>
+                    <td>
+                        <label for="">
+                            E-mail <br>
+                            <input name="E-mail" type="email" placeholder="order@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </label>
+                    </td>
+                    <td><img src="https://icons.iconarchive.com/icons/ampeross/qetto-2/48/mail-icon.png" alt=""></td>
+                    <td>
+                        <label for="">
+                            Adresa de livrare <br>
+                            <textarea name="Adresa_de_livrare" required maxlength="300"></textarea>
+                        </label>
+                    </td>
+                    <td><img src="https://icons.iconarchive.com/icons/alienvalley/osx-dock-replacement/48/maps-icon.png" alt=""></td>
+                    <td>
+                        <label for="">
+                            Comentarii <br>
+                            <textarea name="Comentarii" maxlength="500"></textarea>
+                        </label>
+                    </td>
+                    <td><img src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-10/48/Comment-edit-icon.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="10" align="right">
+                        <label for="">
+                            <input required type="checkbox" name="agree" value="yes">I agree with the terms and conditions
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <table align="center">
+            <tr>
+                <td>
+        <button>NEXT <img valign="middle" src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-8/48/Navigate-right-icon.png" alt=""></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
